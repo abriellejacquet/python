@@ -7,6 +7,7 @@ EXAMPLE TASK:
 '''
 #EX) Define a function that has two parameters. Make the function add the two
 #numbers together and return the result.
+from pickle import TRUE, FALSE
 def add_two_numbers(num1, num2):
     sumOfTwoNumbers = num1 + num2
     return sumOfTwoNumbers
@@ -24,14 +25,24 @@ START HERE
 #the first parameter minus the second one. Then, return the result. Now call 
 #the function.
 #Print what the function returns.
-
+def difTwoNum(2, 4):
+    answer = 2 - 4
+    return answer
+difTwoNum (2, 4)
+    print(answer)
 
 
 #2) Define a function that has one parameter. Make the function divide the 
 #parameter by 2, multiply it by 77, and then add 10,000. Return the result.
 #Now call the function.
 #Print what the function returns.
+def divMulAdd(48):
+    answer = 48 / 2 * 77 + 10000
+    return answer
 
+divMulAdd(48)
+
+print(divMulAdd(x))
 
 
 #3) Define a function that has two int parameters. Make the function check if 
@@ -39,14 +50,32 @@ START HERE
 #return false. Now call the function.
 #Print what the function returns.
 
+def twoInt(5,8):
+    if 5 == 8:
+        return TRUE
+    else: 
+        return FALSE
+    
+twoInt(5, 8)
 
+print(twoInt(5, 8))
 
 #4) Define a function that has two int parameters. Make the function
 #check which parameter is bigger, and return the bigger parameter. 
 #If they are the same, it should just return either parameter. Now call the 
 #function.
 #Print what the function returns.
-
+def checkSize(6, 9):
+    if 6 > 9:
+        return 6
+    elif 6 < 9:
+        return 9
+    else:
+        return 6 or 9
+    
+checkSize(6, 9)
+print(checkSize(6, 9))
+    
 
 
 #5) Define a function that has two string parameters. Make the function
@@ -54,29 +83,52 @@ START HERE
 #the function.
 #Print what the function returns.
 
-
+def stringPara("yellow", " submarine"):
+    answer = ("yellow" + "submarine")
+    return "yellow submarine"
+stringPara("yellow", "submarine")
+    print(answer)
+    
 
 #6) Define a function that has three int parameters. If the first number is 
 #equal to the second OR the third number, return true. Else, return false. Now 
 #call the function.
 #Print what the function returns.
-
+def functThree(6, 8, 7):
+    if 6 == 8 or 6 == 7:
+        return TRUE
+    else:
+        return FALSE
+functThree(6, 8, 7)
+print(functThree(6, 8, 7))
 
 
 #7) Define a function that prints your name. It should have no parameters and 
 #shouldn't return anything. Now call the function.
-
+def name():
+    print("Abrielle")
+name()
 
 
 #8) Define a function that has one string parameter. The string should be a
 #color. If that string is equal to your favorite color, it prints "That's my 
 #favorite color!". If it is not, it prints "That is not my favorite color. 
 #Try again.". It shouldn't return anything. Now call the function.
-
+def oneString("red"):
+    if "red" == "red"
+        print("That's my favorite color!")
+    else:
+        print("That is not my favorite color. Try again.")
+oneString("red")
 
 
 #9) Define a function that has one int parameter. The int should be 
 #positive. If the number is not equal to zero, the function runs a loop that
 #decrements the parameter by 1 and prints it each time. Now call the function.
-
+def oneInt(8):
+    if 8 > 0 or 8 < 0:
+        while oneInt > 0 or oneInt < 0:
+            oneInt -= 1
+            print(oneInt(8))
+oneInt(8)
 
